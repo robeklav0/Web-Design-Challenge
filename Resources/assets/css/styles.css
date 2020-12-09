@@ -1,0 +1,141 @@
+/* Body */
+body {
+    background-color: rgb(179, 176, 170);
+    height: 750px;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    
+  }
+  
+  /* Navbar */
+  .navbar {
+    max-height: 50px;
+  }
+  .navigation .navbar-brand {
+    color: rgb(179, 176, 170);
+    margin-left: 2px;
+    padding: inherit;
+    font-weight: bold;
+    background-color: rgb(245, 207, 149);
+    font-family: Lucida;
+    border-style: groove;
+    
+  }
+  .navbar {
+    background-color: rgb(176, 240, 59);
+    font-size: 34px; 
+    border-style: groove;
+  }
+  .active, .dropdown-menu .dropdown-item:active a:hover {
+    background-color: rgb(238, 237, 234);
+    border-style: groove;
+  }
+  .dropdown-item {
+    color: rgb(15, 15, 14);
+  }
+  .dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover {
+    background-color:rgb(179, 176, 170);
+    border-style: groove
+  }
+  
+  .nav-link:hover {
+    background-color:rgb(150, 148, 145);
+   }
+  
+  .navbar-brand:hover {
+  color: rgb(202, 196, 189);
+  }
+  a {
+    color: rgb(231, 231, 231);
+    font-size: 15px;
+  }
+  
+  /* Images */
+  img{
+    width:80%;
+    height:80%;
+  }
+  .active, .panel:hover {
+    border-color:rgb(197, 161, 60);
+    border-style: solid;
+    
+  }
+  .vizualization {
+    width:50%;
+    height:50%;
+  }
+  
+  /* Title */
+  .title {
+    color: rgb(15, 15, 14);
+    font-family: 'Lucida ', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    padding-top: 10px;
+  }
+  
+  /* Paragraph */
+  p {
+  color: rgb(15, 15, 14);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Helvetica, sans-serif;
+  font-size: 16px;
+  }
+  
+  /* Box */
+  .box {
+    margin-top: 50px;
+    margin-bottom: 60px;
+    padding: 10px 30px 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(179, 176, 170);
+    border-style: groove;
+    border-block-end-color: rgb(66, 65, 64);
+  }
+  /* Table */
+  .table {
+    font-size: 15px;
+    border-top-color: rgb(255, 255, 255);
+  }
+  
+  /* Footer */
+  footer {
+  background-color: rgb(15,15,14);
+  border-top-style: solid;
+  border-top-width: 5px;
+  border-top-color: rgb(15, 15, 14);
+  color: rgb(179, 176, 170);
+  min-height: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Helvetica, sans-serif;
+  font-size: 10px;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding-top: 10px;
+  }
+  
+  /* Media Queries */
+  @media(max-width: 992px) {
+    .navbar-expand-lg {
+    background-color: rgb(0, 0, 0);
+    }
+    .navbar {
+      max-height: none;
+      padding: inherit;
+    }
+    .navbar div {
+      margin: inherit;
+      background-color: rgb(255, 255, 255);
+    }
+    .navbar-brand {
+      padding: 10px;
+    }
+    button{
+      margin-right: 30px;
+    }
+    button:focus {
+      outline: 1px dotted;
+      outline: auto 5px;
+    }
+  }
